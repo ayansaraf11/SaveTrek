@@ -1,0 +1,76 @@
+body{
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#map {
+    height: 100%;
+    width: 75%;
+    left: 0;
+    position: absolute;
+    top: 0;    
+}
+
+#sidebar {
+    height: 100%;
+    width: 25%;
+    left: 75%;
+    position: absolute;
+    top: 0;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resources {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card ul{
+    list-style-type: none;
+    
+}
+
+.card li {
+    margin-top: 15px;
+}
+
+.card img{
+    width: 20px;
+    height: 20px;
+}
+
+.links:hover {
+    color: #4BBAFF;
+    cursor:pointer;
+}
+
+#address{
+    margin-top: 20px;
+}
+
+#autocomplete {
+    margin-top: 20px;
+}
+
+#title{
+    background-color: #4BBAFF;
+    color: white;
+    padding: 10px;
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+
+#locationField,
+#address,
+#townDetail{
+    padding: 15px;
+}
+
+#mapInfo{
+    position: absolute;
+    top:80%;
+    left:1%;
+}
+
+#editTownInfo:hover{
+    color: gray;
+}
